@@ -1,0 +1,122 @@
+body{
+  background-color: #ADD8E6;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  /* background-color: #ADD8E6; */
+  text-align: center;
+  align-items: center;
+  font-family: 'Noto Sans HK', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+fieldset {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  background-color: #fff;
+  width: 350px;
+  margin: 20px;
+  margin-top: -10px;
+  padding: 70px;
+  border-radius: 20px 20px 20px 0px;
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-bottom: 40px;
+  /* margin-right: 20px; */
+  overflow: visible;
+
+}
+
+h2{
+  color: blue;
+
+}
+
+input::placeholder{
+  font-size: 15px;
+}
+
+.small{
+  font-size: 12px;
+  margin-bottom: -18px;
+}
+
+input{
+  width: 100%;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 18px;
+  /* margin-right: : 400px; */
+  background-color: #f4eeff;
+
+}
+
+.datalist {
+  font-size: 15px;
+  width: 110%;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 20px;
+  background-color: #f4eeff;
+  font-family: 'Noto Sans HK', sans-serif;
+  border-radius: 12px 12px 12px 12px;
+}
+
+
+a{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.Resize {
+  padding-top: 40px;
+  font-size: 15px;
+}
+
+.personal{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+p{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+
+}
+
+#blue{
+  width: 110%;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 18px;
+  color: #fff;
+  background-color: darkblue;
+  border-radius: 10px 10px 10px 0px;
+}
+
+option{
+  background-color: #fff;
+}
+
+/*
+li{
+  display: block;
+  font-size: 16px;
+  border: 2px solid black;
+
+} */
